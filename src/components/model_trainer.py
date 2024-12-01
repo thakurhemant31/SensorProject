@@ -18,6 +18,50 @@ from src.utils.main_utils import MainUtils
 
 from dataclasses import dataclass
 
+import sys
+import os
+import numpy as np
+from sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.metrics import accuracy_score
+from xgboost import XGBClassifier
+from sklearn.svm import SVC
+from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
+from src.constant import *
+from src.exception import CustomException
+from src.logger import logging
+from src.utils.main_utils import MainUtils
+from dataclasses import dataclass
+
+
+import sys
+import os
+import numpy as np
+from sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.metrics import accuracy_score
+from xgboost import XGBClassifier
+from sklearn.svm import SVC
+from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
+from src.constant import *
+from src.exception import CustomException
+from src.logger import logging
+from src.utils.main_utils import MainUtils
+from dataclasses import dataclass
+
+
+import sys
+import os
+import numpy as np
+from sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.metrics import accuracy_score
+from xgboost import XGBClassifier
+from sklearn.svm import SVC
+from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
+from src.constant import *
+from src.exception import CustomException
+from src.logger import logging
+from src.utils.main_utils import MainUtils
+from dataclasses import dataclass
+
 
 @dataclass
 class ModelTrainerConfig:

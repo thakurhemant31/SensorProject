@@ -11,7 +11,7 @@ def get_requirements(file_path:str)->List[str]:
 
 
 setup (
-    name='Fault Detection',
+    name='SENSOR_PRO',
     version='0.0.1',
     author='hemant',
     author_email='hemant2001thakur@gmail.com',
